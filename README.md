@@ -12,7 +12,7 @@ A modern, responsive currency conversion app built with React, TypeScript, and R
 
 ## 🚀 Live Demo
 
-[Coming soon!]
+[Live Demo](https://karina4840.github.io/currency_app/)
 
 ## 🛠️ Tech Stack & Why I Chose Them
 
