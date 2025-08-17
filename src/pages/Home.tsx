@@ -8,19 +8,19 @@ const Home: React.FC = () => {
 
   const steps = [
     {
-      image: "/assets/money.png",
+      image: "assets/money.png",
       title: "Select Currencies",
       description:
         "Choose your base currency and target currency from our comprehensive list",
     },
     {
-      image: "/assets/calculator.png",
+      image: "assets/calculator.png",
       title: "Enter Amount",
       description:
         "Input the amount you want to convert with real-time validation",
     },
     {
-      image: "/assets/chart.png",
+      image: "assets/chart.png",
       title: "Get Results",
       description:
         "Instantly see your converted amount with current exchange rates",
