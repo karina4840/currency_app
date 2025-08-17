@@ -1,0 +1,87 @@
+* {
+  font-family: "Manrope", sans-serif;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  background: var(--gradient-card);
+  transition: background 0.3s ease;
+}
+
+/* ===== THEME UTILITIES ===== */
+.theme-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.theme-hover {
+  transition: all 0.2s ease;
+}
+
+.theme-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px var(--shadow-secondary);
+}
+
+/* ===== COMPONENT THEMES ===== */
+.theme-card-hover {
+  transition: all 0.3s ease;
+}
+
+.theme-card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px var(--shadow-card);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-bg {
+  background: linear-gradient(-45deg, var(--accent-purple), var(--accent-green), var(--accent-amber), #ef4444);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-tertiary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gradient-primary);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-purple);
+  transition: all 0.3s ease;
+}
+
+/* Loading spinner */
+.spinner {
+  border: 2px solid rgba(139, 92, 246, 0.1);
+  border-top: 2px solid #8b5cf6;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
