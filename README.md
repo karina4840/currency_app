@@ -70,6 +70,7 @@ I chose a **purple-ish** theme after doing some research on Dribbble:
 - **Primary Purple** - Professional yet friendly
 - **Neutral Grays** - For text and backgrounds
 - **Semantic Colors** - Red for errors, amber for warnings
+- **Images** by [Sadjad - Figma](https://www.figma.com/community/file/1353385243808654605/finance-3d-icons)
 
 ### Responsive Design
 - **Mobile-first approach** - Start with mobile, enhance for larger screens
